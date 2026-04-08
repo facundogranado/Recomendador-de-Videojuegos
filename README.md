@@ -41,9 +41,7 @@ Si no usás make: `PYTHONPATH=. python3 -m src.app`.
 - `make lint` — Ruff y radon
 - `make clean-db` — Borra la base SQLite para empezar de cero con datos vacíos
 
-Los tests en **test_metrics.py** comprueban estilo (ruff) y complejidad ciclomática; si fallan, corregir el código en **src/** (refactorizar funciones demasiado largas o con muchas ramas).
-
-## Estructura del proyecto
+Los tests en **test_metrics.py** comprueban estilo (ruff) y complejidad ciclomática.
 - app.py: punto de entrada de la aplicación Flask.
 - usuarios.py: manejo de usuarios.
 - juegos.py: lógica de juegos.
